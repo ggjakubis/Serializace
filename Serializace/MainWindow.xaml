@@ -1,0 +1,29 @@
+﻿<Window x:Class="Serializace.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Serializace"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600">
+    <Grid>
+        <CheckBox Content="Bít" 
+                  HorizontalAlignment="Left" 
+                  Margin="280,160,0,0"
+                  x:Name="prvni"
+                  VerticalAlignment="Top"/>
+
+        <CheckBox Content="Či" 
+                  HorizontalAlignment="Left" 
+                  Margin="280,202,0,0" 
+                  x:Name="druhy"
+                  VerticalAlignment="Top"/>
+
+        <CheckBox Content="Být" 
+                  HorizontalAlignment="Left" 
+                  Margin="280,242,0,0" 
+                  x:Name="treti"
+                  VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
